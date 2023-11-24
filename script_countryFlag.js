@@ -23,7 +23,7 @@ request.onload=function()
             if(key=="flags")
             {
                 countryFlag = result[i][key];
-                console.log(countryFlag.length);
+                console.log(countryFlag);
                 // console.log(countryFlag.length);
             }
         }
